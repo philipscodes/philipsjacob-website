@@ -15,11 +15,11 @@ header {
   display: flex; /* Enables flexbox properties */
   justify-content: center; /* Centers all content horizontally */
   align-items: center; /* Aligns items vertically */
-  height: 100px;
+  height: 80px;
 }
 
 header img {
-  height: 100%; /* Maintain image size relative to new header height */
+  height: 50px; /* Fixed height for the logo/profile image */
   border-radius: 50%; /* Circular image */
   position: absolute; /* Absolute positioning relative to the header */
   left: 30px; /* Space from the left edge */
@@ -28,7 +28,7 @@ header img {
 
 .header-title {
   color: white; /* White text for contrast */
-  font-size: 50px; /* Adjust font size as needed */
+  font-size: 24px; /* Adjust font size as needed */
   flex-grow: 1; /* Allows the title to fill the space and center-align */
   text-align: center; /* Centers the text within its area */
   padding-left: 60px; /* Adjust padding to prevent overlap with the image */
@@ -36,17 +36,13 @@ header img {
 
 /* Adjustments when scrolled */
 header.small {
-  padding: 1px 1px; /* Reduced padding on scroll */
-  height: 1px; /* Reduce header height on scroll */
+  padding: 10px 20px; /* Reduced padding on scroll */
+  height: 60px; /* Reduce header height on scroll */
   background-color: #92c08d; /* Slightly darker shade on scroll */
 }
 
 header.small img {
-  height: 5%; /* Maintain image 50% size relative to new header height */
-}
-
-header.small .header-title {
-  font-size: 1px; /* Reduced font size on scroll */
+  height: 100%; /* Maintain image size relative to new header height */
 }
 
 /* Main Content Styles */
@@ -74,15 +70,8 @@ footer {
 
 /* Links styling */
 footer a {
-  color: #007BFF; /* Standard blue for unvisited links */
-  text-decoration: none; /* Optional: Removes underline from links */
+  color: #aedb9f; /* Matching the header color */
 }
-
-footer a:hover {
-  color: #0056b3; /* Darker blue on hover for better interaction feedback */
-  text-decoration: underline; /* Optional: Adds underline on hover */
-}
-
 
 /* Custom button styling */
 .btn-custom {
