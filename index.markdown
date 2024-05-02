@@ -4,7 +4,7 @@ layout: default
 
 # About Me
 
-![Philip Jacob](/assets/images/profile-pic.jpg)
+![Philip Jacob](/assets/images/PhilipPassportPicture.jpeg)
 
 I am Philip Jacob, a Global IT Manager and Programmer based in Dubai, UAE. With a background in Systems Engineering and extensive experience in IT management, I specialize in implementing cutting-edge technologies to drive business success. My expertise includes:
 
