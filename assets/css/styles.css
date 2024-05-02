@@ -1,0 +1,134 @@
+html, body {
+  height: 100%; /* Ensure full height for root elements */
+  margin: 0; /* Remove default margin */
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+}
+
+.content {
+  flex: 1; /* Flex grow to take up available space */
+  /* Additional styling as needed */
+}
+
+footer {
+  background: #ccc; /* Visual distinction, adjust as necessary */
+  /* Additional footer styles as needed */
+}
+
+/*body {
+  padding-top: 70px;
+  background-color: #ffffffd7;
+}*/
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #aedb9f; /*#007bff;*/
+  color: white;
+  padding: 5px 20px;
+  margin: 10px 20px; /* Use variable for side margins */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 1000;
+  transition: all 0.5s ease;
+  box-sizing: border-box;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header.small {
+  padding: 5px 15px;
+  height: 60px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+
+.header-title {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 24px;
+  transition: font-size 0.5s ease-in-out;
+}
+
+header.small .header-title {
+  font-size: 18px;
+}
+
+header img {
+  height: 100%;
+  width: auto;
+  transition: height 0.5s ease-in-out;
+}
+
+header.small img {
+  height: 100%;
+}
+
+.intro-container {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px 20px; /* Use variable for side margins */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  box-sizing: border-box;
+  border: 2px solid #aedb9f; /* New border color to match header */
+}
+
+.btn-custom {
+  color: #fff; /* Choose a text color that provides good contrast; white is used here */
+  background-color: #aedb9f;
+  border-color: #9ec88f; /* Slightly darker shade for the border */
+}
+
+.btn-custom:hover {
+  background-color: #9ec88f; /* Darker shade for hover */
+  border-color: #8db87f;
+}
+
+.tiles-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.tiles-container .card {
+  background-color: #fff; /* Ensures background color for cards */
+  border-radius: 10px; /* Rounded corners for aesthetics */
+  margin-bottom: 20px; /* Space between cards */
+  padding: 15px; /* Internal padding for content */
+  height: 100%; /* Ensures each card fills the container height */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Adds shadow to match the intro-container */
+  border: 2px solid #aedb9f; /* Border color matching the header */
+}
+
+
+
+.content {
+  padding-top: 100px; /* Adjusted to ensure no overlap with header */
+}
+
+
+
+@media (max-width: 768px) {
+  header {
+      padding: 5px 10px;
+      height: 60px;
+  }
+  header.small {
+      height: 50px;
+  }
+  .content {
+      padding-top: 70px;
+  }
+}
+

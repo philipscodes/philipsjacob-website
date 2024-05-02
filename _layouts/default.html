@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Philip Jacob - IT Specialist and Programmer in Dubai, specializing in Systems Engineering, IT Management, and Cybersecurity.">
+    <meta name="keywords" content="Philip Jacob, IT Management, Cybersecurity, Artificial Intelligence, Machine Learning, Dubai">
+    <meta name="author" content="Philip Jacob">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+        
+</head>
+<body>
+    <header>
+        <img src="assets/images/PhilipPassportPicture.jpeg" alt="Profile Picture">
+        <div class="header-title">{{ page.title }}</div>
+    </header>
+
+    <div class="content">
+        {{ content }}
+    </div>
+
+    <footer>
+        <p>Contact me on: Phone, WhatsApp, <a href="mailto:bijuphilipjacob@outlook.com">Email</a></p>
+        <p>Follow me on: <a href="https://www.linkedin.com/in/philip-jacob-0077bond/">LinkedIn</a>, <a href="https://github.com/philipscodes">GitHub</a></p>
+        <p>&copy; {{ site.time | date: '%Y' }} Philip Jacob. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var header = document.querySelector('header');
+            window.onscroll = function() {
+                if (window.scrollY > 100) {
+                    header.classList.add('small');
+                } else {
+                    header.classList.remove('small');
+                }
+            };
+        });
+    </script>
+</body>
+</html>
