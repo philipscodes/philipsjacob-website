@@ -1,6 +1,9 @@
 ---
 layout: default
+title: "Home - Philip Jacob"
+description: "Philip Jacob - IT Specialist and Programmer"
 ---
+
 
 # About Me
 
