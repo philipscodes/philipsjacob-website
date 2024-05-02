@@ -1,6 +1,12 @@
 /* General Body Styles */
 body {
-  background-color: #f4f4f4; /* Light grey background for slight contrast */
+  background-image: url('/assets/images/website-pattern-image.png'); /* Path to your pattern image */
+  background-color: #f4f4f4; /* A fallback color in case the image fails to load */
+  background-position: center center; /* Align the image at the center of the page */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  /*background-size: contain; /* Make sure the image is scaled appropriately */
+  /*min-height: 100vh; /* Ensure the body covers the whole viewport height */
+  /*display: flex; /* Use flexbox to aid with the centering */
 }
 
 /* Header Styles */
