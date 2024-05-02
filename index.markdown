@@ -10,7 +10,11 @@ description: "Philip Jacob - IT Specialist and Programmer"
     <div class="intro-container">
       <p>Explore my world of technology and innovation.<br><br> <!-- Line break after innovation -->
 
-      I am Philip Jacob, a Global IT Manager and Programmer based in Dubai, UAE. With a background in Systems Engineering and extensive experience in IT management, I specialize in implementing cutting-edge technologies to drive business success. My expertise includes:</p>
+I am Philip Jacob, a devoted husband to a wonderful loving woman and a proud father of three lovely daughters. Based in Dubai, UAE, I am an IT Professional with more than two decades of enriching experience in the dynamic world of technology. My career is rooted in Systems Engineering, and I have amassed extensive expertise in IT management. I specialize in leveraging cutting-edge technologies to propel business success and thrive on innovation.<br><br>
+
+Beyond my professional pursuits, I have a profound interest in history, philosophy, exploration, and technology. I also have a keen appreciation for diverse cuisines and beverages, which complements my multifaceted life. This blend of personal interests and professional expertise makes me uniquely positioned to contribute to and lead in an ever-evolving digital landscape.<br><br>
+
+My professional expertise includes:</p>
       
       <ul> <!-- Bullet points for expertise list -->
         <li>Systems Engineering</li>
