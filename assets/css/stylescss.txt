@@ -1,13 +1,13 @@
 /* General Body Styles */
 body {
-  background-image: url('/assets/images/website-pattern-image.png'); /* Path to your pattern image */
+  /*background-image: url('/assets/images/website-pattern-image.png'); /* Path to your pattern image */
+  /*background-position: center center; /* or absolute, depending on the need */
+  /*background-repeat: no-repeat; /* Prevent the image from repeating */
   background-color: #f4f4f4; /* A fallback color in case the image fails to load */
-  background-position: center center; /* Align the image at the center of the page */
-  background-repeat: no-repeat; /* Prevent the image from repeating */
-  /*background-size: contain; /* Make sure the image is scaled appropriately */
-  /*min-height: 100vh; /* Ensure the body covers the whole viewport height */
-  /*display: flex; /* Use flexbox to aid with the centering */
+
 }
+
+
 
 /* Header Styles */
 header {
@@ -20,10 +20,10 @@ header {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   position: fixed; /* Fixed at the top */
   width: 100%; /* Full width */
+  height: 100px;
   top: 0;
   z-index: 1030; /* Above other elements */
-  height: 100px;
-}
+ }
 
 #profile-pic {
   flex: 0 1 auto; /* Flex-grow, Flex-shrink, Flex-basis */
@@ -47,10 +47,10 @@ header {
 
 .header-title {
   flex-grow: 1; /* Allows the title to fill the space and center-align */
-  color: white; /* White text for contrast */
-  font-size: 50px; /* Adjust font size as needed */
   text-align: center; /* Centers the text within its area */
-  padding-left: 60px; /* Adjust padding to prevent overlap with the image */
+  color: white; /* White text for contrast */
+  font-size: 25px; /* Adjust font size as needed */
+  padding-left: 10px; /* Adjust padding to prevent overlap with the image */
 }
 
 /* Adjustments when scrolled */
@@ -102,18 +102,46 @@ footer a:hover {
   text-decoration: underline; /* Optional: Adds underline on hover */
 }
 
-
-/* Custom button styling */
-.btn-custom {
-  background-color: #aedb9f; /* Green background */
-  border-color: #9ec88f; /* Slightly darker border */
-  color: white; /* Text color */
+.card-link {
+  text-decoration: none; /* Removes underline from links */
+  color: inherit; /* Keeps the text color consistent with the rest of the card */
+  display: block; /* Ensures the link occupies the entire card area */
 }
 
-.btn-custom:hover {
+.card-link:hover {
+  text-decoration: none; /* Optional: Ensures no underline appears on hover */
   background-color: #9ec88f; /* Darker on hover */
   border-color: #8db87f;
 }
+
+.card {
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; /* Smooth transitions for hover effects */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Moves the card up slightly */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* Adds shadow to make it look elevated */
+  background-color: #f8f9fa; /* Changes background color */
+}
+
+
+.video-container .card {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease-in-out;
+  height: 100px;
+  width: 200px;
+}
+
+.video-container .card:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.video-container img {
+  height: auto;
+  width: 100%; /* Responsive image */
+}
+
+
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {

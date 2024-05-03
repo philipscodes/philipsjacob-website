@@ -10,7 +10,6 @@ description: "Philip Jacob - IT Specialist and Programmer"
         <div class="intro-container">
             <p>Explore my world of technology and innovation.<br><br>I am Philip Jacob, predominantly a father to three lovely daughters, among a multitude of other things. I enjoy the blessedness of life. Based in Dubai, UAE, I am an IT Professional with more than two decades of enriching experience in the dynamic world of technology. My career is rooted in IT Systems Engineering, and I have amassed extensive expertise in IT & Project Management. I specialize in leveraging cutting-edge technologies to propel business success and thrive on innovation.<br><br>Beyond my professional pursuits, I have a profound interest in history, philosophy, exploration, and technology in general. I also have a keen appreciation for diverse cultures, music, cuisines and beverages, which complements my multifaceted life. This blend of personal interests and professional expertise makes me uniquely positioned to contribute to and lead in an ever-evolving digital landscape.<br><br>My professional expertise includes:<br>
             </p>
-          
             <ul> <!-- Bullet points for expertise list -->
               <li>IT Management</li>
               <li>IT Network Systems Engineering</li>
@@ -23,59 +22,15 @@ description: "Philip Jacob - IT Specialist and Programmer"
               <li>Robotics Process Automation (various RPA software)</li>
               <li>Cloud Computing (Microsoft)</li>
             </ul>
-
-          <p>I am passionate about leveraging technology to solve complex problems and improve business efficiency. 
-              In my spare time, I enjoy exploring topics in literature, history and nature documentaries. I love the outdoor life with people and nature.
-          </p>
+            <p>I am passionate about leveraging technology to solve complex problems and improve business efficiency. 
+                In my spare time, I enjoy exploring topics in literature, history and nature documentaries. I love the outdoor life with people and nature.
+            </p>
         </div>
-    </div>
-
-    
+    </div> 
     <!-- Tiles Container -->
     <div class="col-lg-3 col-md-4">
       <div class="mt-5">
-        <div class="row">
-          <!-- About Me Tile -->
-          <div class="col-md-12 mb-4">
-            <div class="card h-100">
-              <div class="card-body">
-                <h5 class="card-title">About Me</h5>
-                <p class="card-text">Learn more about my background and the projects I work on.</p>
-                <a href="/about" class="btn btn-custom">Learn More</a>
-              </div>
-            </div>
-          </div>
-          <!-- Projects Tile -->
-          <div class="col-md-12 mb-4">
-            <div class="card h-100">
-              <div class="card-body">
-                <h5 class="card-title">Projects</h5>
-                <p class="card-text">Explore the projects that showcase my expertise in IT and management.</p>
-                <a href="/projects" class="btn btn-custom">View Projects</a>
-              </div>
-            </div>
-          </div>
-          <!-- Videos Tile -->
-          <div class="col-md-12 mb-4">
-            <div class="card h-100">
-              <div class="card-body">
-                <h5 class="card-title">Videos</h5>
-                <p class="card-text">Watch videos where I discuss technology and its impacts on business.</p>
-                <a href="/videos" class="btn btn-custom">Watch Videos</a>
-              </div>
-            </div>
-          </div>
-          <!-- Home Tile -->
-          <div class="col-md-12 mb-4">
-            <div class="card h-100">
-              <div class="card-body">
-                <h5 class="card-title">Home</h5>
-                <p class="card-text">Let's start from the beginning ...</p>
-                <a href="/index" class="btn btn-custom">Let's Go ...</a>
-              </div>
-            </div>
-          </div>
-        </div>
+        {% include tiles.html exclude="Certifications" %}
       </div>
     </div>
   </div>
