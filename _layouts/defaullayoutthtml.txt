@@ -15,7 +15,8 @@
 </head>
 <body>
     <header>
-        <img src="assets/images/PhilipPassportPicture.jpeg" alt="Profile Picture">
+        <img src="assets/images/PhilipPassportPicture.jpeg" alt="Profile Picture" id="profile-pic">
+        <img src="assets/images/website-logo-image.png" alt="Profile Logo" id="logo">
         <div class="header-title">{{ page.title }}</div>
     </header>
 

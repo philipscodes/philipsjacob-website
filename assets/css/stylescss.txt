@@ -20,10 +20,10 @@ header {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   position: fixed; /* Fixed at the top */
   width: 100%; /* Full width */
-  height: 100px;
   top: 0;
   z-index: 1030; /* Above other elements */
- }
+  height: 100px;
+}
 
 #profile-pic {
   flex: 0 1 auto; /* Flex-grow, Flex-shrink, Flex-basis */
@@ -39,7 +39,7 @@ header {
 #logo {
   flex: 0 1 auto; /* Flex-grow, Flex-shrink, Flex-basis */
   height: 100%; /* Adjust height as necessary */
-  width: 60px; /* Maintain aspect ratio */
+  width: auto; /* Maintain aspect ratio */
   margin-left: auto; /* This ensures it stays to the right */
   margin-left: 20px; /* Ensures a gap between the title and logo */
   border-radius: 0; /* No border radius for the logo */
@@ -47,10 +47,10 @@ header {
 
 .header-title {
   flex-grow: 1; /* Allows the title to fill the space and center-align */
-  text-align: center; /* Centers the text within its area */
   color: white; /* White text for contrast */
-  font-size: 25px; /* Adjust font size as needed */
-  padding-left: 10px; /* Adjust padding to prevent overlap with the image */
+  font-size: 50px; /* Adjust font size as needed */
+  text-align: center; /* Centers the text within its area */
+  padding-left: 60px; /* Adjust padding to prevent overlap with the image */
 }
 
 /* Adjustments when scrolled */

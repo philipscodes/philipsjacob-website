@@ -8,21 +8,21 @@ description: "Philip Jacob - IT Specialist and Programmer"
     <!-- Introduction Container -->
     <div class="col-lg-9 col-md-8" >
         <div class="intro-container">
-            <p>Explore my world of technology and innovation.<br><br>I am Philip Jacob, a devoted husband to a wonderful loving woman and a proud father of three lovely daughters. Based in Dubai, UAE, I am an IT Professional with more than two decades of enriching experience in the dynamic world of technology. My career is rooted in Systems Engineering, and I have amassed extensive expertise in IT management. I specialize in leveraging cutting-edge technologies to propel business success and thrive on innovation.<br><br>Beyond my professional pursuits, I have a profound interest in history, philosophy, exploration, and technology. I also have a keen appreciation for diverse cuisines and beverages, which complements my multifaceted life. This blend of personal interests and professional expertise makes me uniquely positioned to contribute to and lead in an ever-evolving digital landscape.<br><br>My professional expertise includes:<br>
+            <p>Explore my world of technology and innovation.<br><br>I am Philip Jacob, a husband to a wonderful loving woman and a father of three lovely daughters. Based in Dubai, UAE, I am an IT Professional with more than two decades of enriching experience in the dynamic world of technology. My career is rooted in IT Systems Engineering, and I have amassed extensive expertise in IT management. I specialize in leveraging cutting-edge technologies to propel business success and thrive on innovation.<br><br>Beyond my professional pursuits, I have a profound interest in history, philosophy, exploration, and technology in general. I also have a keen appreciation for diverse cultures, music, cuisines and beverages, which complements my multifaceted life. This blend of personal interests and professional expertise makes me uniquely positioned to contribute to and lead in an ever-evolving digital landscape.<br><br>My professional expertise includes:<br>
             </p>
           
             <ul> <!-- Bullet points for expertise list -->
-              <li>Systems Engineering</li>
               <li>IT Management</li>
+              <li>IT Systems Engineering</li>
               <li>Project Management Professional (PMP)</li>
-              <li>ITIL</li>
-              <li>Cybersecurity</li>
+              <li>IT Service Management (ITIL)</li>
+              <li>Cybersecurity (CISM)</li>
               <li>Artificial Intelligence (AI Products) </li>
-              <li>Cloud Computing</li>
+              <li>Cloud Computing (Microsoft)</li>
             </ul>
 
           <p>I am passionate about leveraging technology to solve complex problems and improve business efficiency. 
-              In my spare time, I enjoy exploring topics in literature, history, and nature documentaries.
+              In my spare time, I enjoy exploring topics in literature, history and nature documentaries. I love the outdoor life with people and nature.
           </p>
         </div>
     </div>
