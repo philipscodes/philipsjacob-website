@@ -8,16 +8,19 @@ description: "Philip Jacob - IT Specialist and Programmer"
     <!-- Introduction Container -->
     <div class="col-lg-9 col-md-8" >
         <div class="intro-container">
-            <p>Explore my world of technology and innovation.<br><br>I am Philip Jacob, a husband to a wonderful loving woman and a father of three lovely daughters. Based in Dubai, UAE, I am an IT Professional with more than two decades of enriching experience in the dynamic world of technology. My career is rooted in IT Systems Engineering, and I have amassed extensive expertise in IT management. I specialize in leveraging cutting-edge technologies to propel business success and thrive on innovation.<br><br>Beyond my professional pursuits, I have a profound interest in history, philosophy, exploration, and technology in general. I also have a keen appreciation for diverse cultures, music, cuisines and beverages, which complements my multifaceted life. This blend of personal interests and professional expertise makes me uniquely positioned to contribute to and lead in an ever-evolving digital landscape.<br><br>My professional expertise includes:<br>
+            <p>Explore my world of technology and innovation.<br><br>I am Philip Jacob, predominantly a father to three lovely daughters, among a multitude of other things. I enjoy the blessedness of life. Based in Dubai, UAE, I am an IT Professional with more than two decades of enriching experience in the dynamic world of technology. My career is rooted in IT Systems Engineering, and I have amassed extensive expertise in IT & Project Management. I specialize in leveraging cutting-edge technologies to propel business success and thrive on innovation.<br><br>Beyond my professional pursuits, I have a profound interest in history, philosophy, exploration, and technology in general. I also have a keen appreciation for diverse cultures, music, cuisines and beverages, which complements my multifaceted life. This blend of personal interests and professional expertise makes me uniquely positioned to contribute to and lead in an ever-evolving digital landscape.<br><br>My professional expertise includes:<br>
             </p>
           
             <ul> <!-- Bullet points for expertise list -->
               <li>IT Management</li>
-              <li>IT Systems Engineering</li>
+              <li>IT Network Systems Engineering</li>
+              <li>IT Service Management (ITIL v4)</li>
+              <li>Database Administration (Microsft based cloud and on-premise databases)</li>
+              <li>Software Development Life Cycle Methodologies (Agile Scrum)</li>
               <li>Project Management Professional (PMP)</li>
-              <li>IT Service Management (ITIL)</li>
               <li>Cybersecurity (CISM)</li>
               <li>Artificial Intelligence (AI Products) </li>
+              <li>Robotics Process Automation (various RPA software)</li>
               <li>Cloud Computing (Microsoft)</li>
             </ul>
 
@@ -68,7 +71,7 @@ description: "Philip Jacob - IT Specialist and Programmer"
               <div class="card-body">
                 <h5 class="card-title">Certifications</h5>
                 <p class="card-text">See my professional certifications</p>
-                <a href="/videos" class="btn btn-custom">See Certificates</a>
+                <a href="/certificates" class="btn btn-custom">See Certificates</a>
               </div>
             </div>
           </div>

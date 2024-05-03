@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "INTERVIEW VIDEOS"
+title: "PROFESSIONAL CERTIFICATES"
 description: "Philip Jacob - IT Specialist and Programmer"
 ---
 <div class="container-fluid"> <!-- Using container-fluid for full width -->
@@ -55,23 +55,23 @@ description: "Philip Jacob - IT Specialist and Programmer"
               </div>
             </div>
           </div>
+          <!-- Videos Tile -->
+          <div class="col-md-12 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Videos</h5>
+                <p class="card-text">Watch videos where I discuss technology and its impacts on business.</p>
+                <a href="/videos" class="btn btn-custom">Watch Videos</a>
+              </div>
+            </div>
+          </div>
           <!-- Home Tile -->
           <div class="col-md-12 mb-4">
             <div class="card h-100">
               <div class="card-body">
                 <h5 class="card-title">Home</h5>
-                <p class="card-text">Let's start form the begining ...</p>
+                <p class="card-text">Let's start from the beginning ...</p>
                 <a href="/index" class="btn btn-custom">Let's Go ...</a>
-              </div>
-            </div>
-          </div>
-          <!-- Certification Tile -->
-          <div class="col-md-12 mb-4">
-            <div class="card h-100">
-              <div class="card-body">
-                <h5 class="card-title">Certifications</h5>
-                <p class="card-text">See my professional certifications</p>
-                <a href="/certificates" class="btn btn-custom">See Certificates</a>
               </div>
             </div>
           </div>
