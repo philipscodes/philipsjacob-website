@@ -115,6 +115,22 @@ footer a:hover {
   border-color: #8db87f;
 }
 
+.video-container .card {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.video-container .card:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.video-container img {
+  height: auto;
+  width: 100%; /* Responsive image */
+}
+
+
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   header, .header.small {
