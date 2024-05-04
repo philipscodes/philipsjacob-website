@@ -14,7 +14,7 @@ header {
   display: flex; /* Enables flexbox properties */
   justify-content: space-between; /* Align items on the opposite ends */
   align-items: center; /* Aligns items vertically */
-  background-color: #aedb9f; /* Custom green color, matching the button color */
+  background-color: #4682B4; /*#aedb9f; /* Custom green color, matching the button color */
   padding: 15px 30px; /* Ample padding for a spacious layout */
   border-radius: 0.25rem; /* Rounded corners */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
@@ -84,7 +84,7 @@ header.small .header-title {
 
 /* Footer Styles */
 footer {
-  background-color: #92c08d; /* Light grey background */
+  background-color: #4682B4; /* #92c08d; /* Light grey background */
   color: white; /* Text color */
   padding: 10px 20px; /* Consistent padding */
   text-align: center; /* Centered text */
@@ -93,7 +93,7 @@ footer {
 
 /* Links styling */
 footer a {
-  color: #007BFF; /* Standard blue for unvisited links */
+  color: #9ec88f;/* #007BFF; /* Standard blue for unvisited links */
   text-decoration: none; /* Optional: Removes underline from links */
 }
 
