@@ -1,0 +1,55 @@
+home:
+  title: "Explore my world of technology and innovation."
+  description: |
+    I am Philip Jacob, predominantly a father to three children, among a multitude of other hats.
+    I enjoy the blessedness of life. Based in Dubai, UAE, I am an IT Professional with more than
+    two decades of enriching experience in the dynamic world of technology. My career is rooted
+    in IT Systems Engineering, and I have amassed extensive expertise in IT & Project Management.
+    I specialize in leveraging cutting-edge technologies to propel business success and thrive
+    on innovation.<br><br>
+    Beyond my professional pursuits, I have a profound interest in history, philosophy, exploration,
+    and technology in general. I also have a keen appreciation for diverse cultures, music, cuisines
+    and beverages, which complements my multifaceted life. This blend of personal interests and
+    professional expertise makes me uniquely positioned to contribute to and lead in an ever-evolving
+    digital landscape.<br><br>
+    My professional expertise includes:<br>
+  list:
+    - IT Management (Masters in IT)
+    - IT Network Systems Engineering (Engineering Graduate, CCNP)
+    - IT Service Management (ITIL v4)
+    - Database Administration (Microsft based cloud and on-premise databases)
+    - Software Development Life Cycle Methodologies (Agile Scrum)
+    - Project Management Professional (PMP)
+    - Cybersecurity (CISM)
+    - Artificial Intelligence (AI Products)
+    - Robotics Process Automation (various RPA software)
+    - Cloud Computing (Microsoft)
+
+aboutMe:
+  title: "My Interview Videos"
+  description: "Here you can view various interviews and discussions where I talk about technology trends and project management."
+  list:
+    - "Discussion on AI in Business"
+    - "Project Management Techniques"
+    - "..."
+
+projects:
+  title: "Projects Overview"
+  description: "This section highlights my projects and showcases my expertise in managing and executing large IT projects."
+  # No list for this one
+
+videos:
+  title: "My Interview Videos"
+  description: "Here you can view various interviews and discussions where I talk about technology trends and project management."
+  list:
+    - "Discussion on AI in Business"
+    - "Project Management Techniques"
+    - "..."
+
+certifications:
+  title: "My Interview Videos"
+  description: "Here you can view various professional certificates."
+  list:
+    - "Discussion on AI in Business"
+    - "Project Management Techniques"
+    - "..."

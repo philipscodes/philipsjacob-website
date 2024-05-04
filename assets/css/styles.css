@@ -125,20 +125,9 @@ footer a:hover {
 }
 
 
-.video-container .card {
-  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
-  transition: box-shadow 0.3s ease-in-out;
-}
-
-.video-container .card:hover {
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-}
-
 .video-container img {
   width: 100%; /* Ensures responsiveness */
 }
-
-
 
 
 /* Responsive Adjustments */

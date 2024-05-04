@@ -1,0 +1,11 @@
+<div class="intro-container">
+    {% assign intro_data = site.data.intro[page.intro_id] %}
+    <p>{{ intro_data.title }}<br><br>{{ intro_data.description }}</p>
+    {% if intro_data.list %}
+        <ul>
+            {% for item in intro_data.list %}
+                <li>{{ item }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</div>

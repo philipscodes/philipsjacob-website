@@ -1,4 +1,5 @@
 <!-- _includes/tiles.html -->
+<div class="row">
   {% for tile in site.data.tiles %}
     {% unless tile.title == include.exclude %}
       <div class="col-md-12 mb-4">
@@ -13,3 +14,4 @@
       </div>
     {% endunless %}
   {% endfor %}
+</div>  
