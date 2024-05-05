@@ -24,7 +24,7 @@ intro_id: videos
         <div class="row">
           {% for video in site.data.videos %}  
             <div class="col-md-4 mb-4">
-              <a href="https://www.youtube.com/watch?v={{ video.id }}" class="card-link">
+              <a href="https://www.youtube.com/watch?v={{ video.id }}" class="card-link" target="_blank">
                 <div class="card">
                   <img src="https://img.youtube.com/vi/{{ video.id }}/0.jpg" class="card-img-top img-fluid" alt="{{ video.title }}">
                     <div class="card-body">
