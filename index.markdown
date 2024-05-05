@@ -12,9 +12,9 @@ intro_id: home
     </div>    
     <!-- Tiles Container -->
     <div class="col-lg-3 col-md-4">
-      <div class="mt-5">
+      <!-- <div class="mt-5"> -->
         {% include tiles.html exclude="Home" %}
-      </div>
+      <!-- </div> -->
     </div>
   </div>
 </div>

@@ -1,8 +1,9 @@
 home:
   title: "Explore my world of technology and innovation."
   description: |
-    I am Philip Jacob, predominantly a father to three children, among a multitude of other hats.
-    I enjoy the blessedness of life. Based in Dubai, UAE, I am an IT Professional with more than
+    I am Philip Jacob, a father to three children, among a multitude of other hats.
+    I enjoy and am thankful for the blessedness of life.<br><br>
+    Based in Dubai, UAE, I am an IT Professional with more than
     two decades of enriching experience in the dynamic world of technology. My career is rooted
     in IT Systems Engineering, and I have amassed extensive expertise in IT & Project Management.
     I specialize in leveraging cutting-edge technologies to propel business success and thrive
@@ -14,7 +15,7 @@ home:
     digital landscape.<br><br>
     My professional expertise includes:<br>
   list:
-    - IT Management (Masters in IT)
+    - IT Management (10 years + Masters in IT)
     - IT Network Systems Engineering (Engineering Graduate, CCNP)
     - IT Service Management (ITIL v4)
     - Database Administration (Microsft Azure SQL + on-premise databases)

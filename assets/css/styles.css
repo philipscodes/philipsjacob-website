@@ -3,11 +3,9 @@ body {
   /*background-image: url('/assets/images/website-pattern-image.png'); /* Path to your pattern image */
   /*background-position: center center; /* or absolute, depending on the need */
   /*background-repeat: no-repeat; /* Prevent the image from repeating */
-  background-color: #f4f4f4; /* A fallback color in case the image fails to load */
+  background-color: #e8e1e1; /* A fallback color in case the image fails to load */
 
 }
-
-
 
 /* Header Styles */
 header {
@@ -16,12 +14,14 @@ header {
   align-items: center; /* Aligns items vertically */
   background-color: #4682B4; /*#aedb9f; /* Custom green color, matching the button color */
   padding: 15px 30px; /* Ample padding for a spacious layout */
-  border-radius: 0.25rem; /* Rounded corners */
+  border-radius: 15px; /* Rounded corners */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  top: 10px;
   position: fixed; /* Fixed at the top */
-  width: 100%; /* Full width */
+  width: calc(100% - 80px); /* Adjusts width to account for margins*/
+  margin-left: 40px;
+  margin-right: 40px;
   height: 100px;
-  top: 0;
   z-index: 1030; /* Above other elements */
  }
 
@@ -74,13 +74,16 @@ header.small .header-title {
   margin: 20px; /* Space from edges */
 }
 
-/* Bootstrap container for main layout */
-.container {
-  padding: 20px; /* Inner spacing */
+.intro-container {
   background-color: white; /* White background for content areas */
-  border-radius: 0.25rem; /* Rounded corners */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Consistent shadow for depth */
+  border: 1px solid #ccc; /* Light grey border */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow */
+  padding: 20px; /* Padding inside the container */
+  margin-top: 30px;
+  height: 750px;
 }
+
 
 /* Footer Styles */
 footer {
@@ -110,12 +113,14 @@ footer a:hover {
 
 .card-link:hover {
   text-decoration: none; /* Optional: Ensures no underline appears on hover */
-  background-color: #9ec88f; /* Darker on hover */
+  background-color: #d9dfd7e2; /* Darker on hover */
   border-color: #8db87f;
 }
 
 .card {
+  border-radius: 15px; /* Rounded corners */
   transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; /* Smooth transitions for hover effects */
+  margin-top: 30px;
 }
 
 .card:hover {
@@ -124,6 +129,9 @@ footer a:hover {
   background-color: #f8f9fa; /* Changes background color */
 }
 
+.card-body {
+  height: 160px;
+}
 
 .video-container img {
   width: 100%; /* Ensures responsiveness */
@@ -153,3 +161,5 @@ footer a:hover {
     padding: 5px; /* Smaller padding in footer */
   }
 }
+
+

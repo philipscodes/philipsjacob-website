@@ -19,7 +19,7 @@ intro_id: videos
   </div>
   <!-- Video Thumbnails Container -->
   <div class="row">
-    <div class="col-12">
+    <div class="col-sm-12">
       <div class="video-container mt-4">    
         <div class="row">
           {% for video in site.data.videos %}  
