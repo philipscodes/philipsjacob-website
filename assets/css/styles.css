@@ -38,9 +38,9 @@ header {
 
 #logo {
   flex: 0 1 auto; /* Flex-grow, Flex-shrink, Flex-basis */
-  height: 100%; /* Adjust height as necessary */
+  /*height: 100%; /* Adjust height as necessary */
   width: auto; /* Maintain aspect ratio */
-  margin-left: auto; /* This ensures it stays to the right */
+  /*margin-left: auto; /* This ensures it stays to the right */
   margin-left: 20px; /* Ensures a gap between the title and logo */
   border-radius: 0; /* No border radius for the logo */
 }
@@ -71,7 +71,7 @@ header.small .header-title {
 /* Main Content Styles */
 .content {
   padding-top: 100px; /* Space below fixed header */
-  margin: 20px; /* Space from edges */
+  /*margin: 20px; /* Space from edges */
 }
 
 .intro-container {
@@ -81,6 +81,8 @@ header.small .header-title {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow */
   padding: 20px; /* Padding inside the container */
   margin-top: 30px;
+  margin-left: calc(40px - 15px);
+  margin-right: calc(40px - 10px);
   height: 750px;
 }
 
