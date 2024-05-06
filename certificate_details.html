@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<div id="certificate-details"></div>
+   
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const params = new URLSearchParams(window.location.search);
+            const certificateId = params.get('id');
+        
+            // console.log("Certificate ID:", certificateId); // Check the ID being fetched
+        
+            const certificates = {{ site.data.certificates | jsonify }};
+            // console.log("Certificates Data:", certificates); // Check the data being passed to JS
+        
+            const certificate = certificates.find(cert => cert.id === certificateId);
+            // console.log("Found Certificate:", certificate); // Verify the correct certificate is found
+        
+            if (certificate) {
+                const container = document.getElementById('certificate-details');
+                container.innerHTML = `
+                    <h1>${certificate.title}</h1>
+                    <p>${certificate.description.replace(/\n/g, '<br>')}</p>
+                    <img src="/images/certificates/${certificate.image}" alt="Certificate Image for ${certificate.title}">
+                `;
+            } else {
+                document.getElementById('certificate-details').innerHTML = '<p>Certificate not found.</p>';
+            }
+        });
+        </script>
+        

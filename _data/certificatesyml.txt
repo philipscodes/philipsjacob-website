@@ -1,0 +1,39 @@
+- id: 09_PMPCertfication_BijuPhilipJacob_page
+  title: Project Management Professional (PMP)
+  description: |
+    The Project Management Professional (PMP) certification, issued by the Project Management Institute (PMI), 
+    is a globally recognized credential that validates a project manager's competence and experience in leading and directing projects. 
+    It demonstrates proficiency across three key domains: People, emphasizing the soft skills necessary to effectively lead a project team; 
+    Process, which reinforces the technical aspects of managing projects; and Business Environment, 
+    which highlights the connection between projects and organizational strategy<br><br>
+    To earn the PMP certification, candidates must meet specific educational and professional experience requirements. 
+    These include a four-year degree with 36 months of project management experience or 
+    a secondary degree with 60 months of project management experience. 
+    All candidates must also complete 35 hours of project management education. 
+    The certification process involves passing a rigorous 180-question exam that covers 
+    the broad spectrum of project management principles and practices outlined in 
+    PMI's A Guide to the Project Management Body of Knowledge (PMBOK Guide) <br><br>.
+    Maintaining the certification requires earning 60 Professional Development Units (PDUs) every three years, 
+    ensuring that PMP-certified professionals continue to grow and adapt their skills according to industry developments and changes.
+  applications:
+  myprojects:
+  image: 09_PMPCertfication_BijuPhilipJacob_page.jpg
+
+- id: 10_ITIL_BijuPhilipJacob_page
+  title: Information Technology Infrastructure Library (ITIL v4)
+  description: |
+    The ITIL (Information Technology Infrastructure Library) certification is provided by AXELOS and is a globally recognized framework for IT service management. ITIL 4, the latest version, offers a comprehensive and flexible system for managing IT-enabled services, particularly in the digital era. It is designed to co-create value with customers and help organizations drive business strategy and embrace digital transformation.<br><br>
+    ITIL 4 certification is structured across several levels starting with the ITIL 4 Foundation, which introduces the key concepts of IT and digital service delivery. It's intended for anyone looking to understand the essentials of IT service management and how it can help their organization adapt to a new service management culture. <br><br>
+    The ITIL 4 Foundation exam consists of 40 multiple-choice questions, with a pass mark of 65%, and is a closed-book format. Certification does not expire, but continuing professional development is encouraged to keep up with the latest practices. <br><br>
+    Organizations across various sectors utilize ITIL principles to improve service management and efficiency, making the certification valuable for IT professionals aiming to enhance their skills and career opportunities. <br><br>
+    Several prominent organizations that are pioneers in incorporating ITIL and view it as essential for their operations include: <br><br>
+    <ul>
+      <li><strong>IBM</strong> - Implements ITIL practices across global services and IT operations to enhance service delivery and efficiency.</li>
+      <li><strong>HP (Hewlett-Packard)</strong> - Uses ITIL to structure its service management processes, ensuring consistent service delivery and quality.</li>
+      <li><strong>Microsoft</strong> - Integrates ITIL principles within its service management strategies to streamline IT services and support structures.</li>
+      <li><strong>NASA</strong> - Applies ITIL guidelines in managing its IT and support services to support space missions.</li>
+      <li><strong>British Telecom (BT)</strong> - One of the early adopters, using ITIL practices extensively to transform its IT service management and delivery frameworks.</li>
+    </ul>
+    These organizations not only require ITIL certification for many of their IT roles but also contribute to the evolution of ITIL standards by implementing and adapting them in complex IT environments. Their commitment to ITIL practices demonstrates the framework's value in managing IT services effectively. <br><br>
+    For a more detailed exploration of ITIL certification and to find training providers, you can visit the AXELOS website on ITIL service management [here](https://www.axelos.com/certifications/itil-service-management).
+  image: 10_ITIL_BijuPhilipJacob_page.jpg

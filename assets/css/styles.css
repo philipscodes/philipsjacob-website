@@ -86,7 +86,6 @@ header.small .header-title {
   height: 750px;
 }
 
-
 /* Footer Styles */
 footer {
   background-color: #4682B4; /* #92c08d; /* Light grey background */
@@ -139,6 +138,29 @@ footer a:hover {
   width: 100%; /* Ensures responsiveness */
 }
 
+.certificate-tiles {
+  background-color: white; /* White background for the tiles */
+  border: 1px solid #ccc; /* Light grey border for slight contrast */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px; /* Adequate padding around the tiles */
+  margin: 20px; /* Spacing from page edges to match header */
+  border-radius: 15px; /* Rounded corners for aesthetics */
+}
+
+/* Additional styling to ensure each certificate tile has consistent styling and spacing */
+.certificate-tile {
+  margin-bottom: 20px; /* Space between tiles */
+}
+
+#certificate-details {
+  background-color: white; /* Sets the background color to white */
+  border: 1px solid #ccc; /* Adds a light grey border */
+  border-radius: 10px; /* Rounds the corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a slight shadow */
+  padding: 20px; /* Adds space inside the container */
+  margin: 20px 40px; /* Adds space around the container to match the header */
+  width: calc(100% - 80px); /* Sets the width to full page width minus margin */
+}
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
