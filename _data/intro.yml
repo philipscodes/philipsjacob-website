@@ -27,12 +27,14 @@ home:
     - Cloud Computing (Microsoft Azure)
 
 aboutMe:
-  title: "My Interview Videos"
-  description: "Here you can view various interviews and discussions where I talk about technology trends and project management."
-  list:
-    - "Discussion on AI in Business"
-    - "Project Management Techniques"
-    - "..."
+  title: <title>Memories of Growing Up in UAE</title>
+  description: |
+    <p>Reflecting on my childhood in the UAE during the late 1970s evokes a tapestry of vivid memories, marked by a simpler, yet profoundly vibrant cultural landscape. The charm of Dubai then was not in its towering skyscrapers, but in the warmth of its people and the quiet corners of daily life that made each day memorable.</p>
+    <p>The heart of old Dubai, where traditional dhows bobbed in the gentle waters of Dubai Creek, was where commerce thrived and cultures mingled. This was our playground, and it was here among the bustling souks, like the Gold Souk and Spice Souk, that I learned the art of negotiation and the value of diverse perspectives. Evenings were often spent at either Safa Park or Deira Park, watching the sun set over the corniche, a stark contrast to the desert surrounding us.</p>
+    <p>Excursions to Al Ain Zoo were adventures into the exotic, instilling in us an appreciation for nature’s diversity. Entertainment came alive in the form of blinking arcade games at Sindbad within the bustling Al Ghurair Center, and the latest blockbusters at Strand Cinema provided us a window to the wider world. School trips to visit the annual Monte Carlo circus at Al Nasr Leisure Land was a thrill etched in memory. The local fight club or wrestling match opposite The Hilton enroute the fish market was a Friday weekend special. As kids, we had several close by wide open grounds to play our various games like seven tiles, gilly danda, marampatty, cricket, football and the like. After school exploration of new grounds and torn down ancient villas was an adventure in itself.</p>
+    <p>The Trade Center, then the tallest building, stood as a beacon of progress, dwarfing the low-rise cityscape. Dining experiences at India Palace restaurant offered a taste of home. The aroma of freshly baked goodies from Dubai Automatic Bakery was a frequent temptation, as irresistible as the pastries were delectable.</p>
+    <p>Not far from these culinary delights, the young energetic Arab boys showcased their daring on buggies and Nissan Patrols, their impressive road wheeling drawing crowds and cheers. These were the days of simplicity mingled with the excitement of a city on the brink of monumental growth—a place and time forever etched in my heart. Each memory, from the serene parks to the energetic bazaars, is a testament to the enduring spirit of a city that nurtured not just dreams but deep-rooted respect and love for a culture that welcomed everyone. For those of us born and raised here, these memories are not just nostalgia; they are the chapters of our collective autobiography, penned in the sands and souks of a rapidly evolving UAE.</p>
+  list: ""
 
 projects:
   title: "Projects Overview"
@@ -48,9 +50,20 @@ videos:
     - "..."
 
 certifications:
-  title: "My Interview Videos"
-  description: "Here you can view various professional certificates."
+  title: "Professional Certificates"
+  description: |
+    <p>I am proud to hold a diverse array of professional certifications that underscore my expertise and 
+    dedication in the field of Information Technology and cybersecurity. 
+    These credentials not only reflect my commitment to continual learning but also my ability to stay 
+    at the forefront of technological advancements and best practices in IT management and security.</p>
+
   list:
-    - "Discussion on AI in Business"
-    - "Project Management Techniques"
-    - "..."
+    - Project Management Professional (PMP by PMI)
+    - IT Infrastructure Library (ITIL v4 by AXELOS)
+    - Microsoft Security Operations Analyst
+    - Microsoft Cybersecurity Architect Expert
+    - Certified Information Security Manager (CISM by ISACA)
+    - Certified Ethical Hacker (CEH by EC Council)
+    - Cisco Certified Network Professional (CCNP)
+    - Microsoft Certified Azure AI Engineer Associate
+    - Six Sigma Professional (IQF)
