@@ -38,16 +38,15 @@ aboutMe:
 
 projects:
   title: "Projects Overview"
-  description: "This section highlights my projects and showcases my expertise in managing and executing large IT projects."
+  description: "This part of the site is currently under review. This section will highlight my projects and showcases my expertise in managing and executing large IT projects."
   # No list for this one
 
 videos:
   title: "My Interview Videos"
-  description: "Here you can view various interviews and discussions where I talk about technology trends and project management."
-  list:
-    - "Discussion on AI in Business"
-    - "Project Management Techniques"
-    - "..."
+  description: |
+    This part of the site is currently under review. Here you will soon find videos where I talk about various topics on 
+    Information Technology, Cybersecurity, Digital Transformation, Operations Management and Project Management.
+  list: ""
 
 certifications:
   title: "Professional Certificates"
